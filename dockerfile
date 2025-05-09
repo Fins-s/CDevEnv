@@ -25,8 +25,6 @@ RUN ARCH=$(uname -m) &&\
     rm -rf /temp &&\
     apt-get clean
 
-CMD ["tail", "-f", "/dev/null"]
-
 # apt-get autoremove -y &&\
 
 # build: docker buildx build -t finsss/CDevEnv:latest .
