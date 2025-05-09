@@ -32,4 +32,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: finsss/CDevEnv:${{ steps.set_tag.outputs.docker_image_tag }}
+          tags: finsss/cdevenv:${{ steps.set_tag.outputs.docker_image_tag }}
